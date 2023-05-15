@@ -16,7 +16,17 @@
 	"plugins": ["prettier", "react", "react-native"],
 	"rules": {
 		"linebreak-style": ["error", "unix"],
-		"prettier/prettier": "error"
+		"prettier/prettier": "error",
+		"react/jsx-sort-props": [
+			"error",
+			{
+				"callbacksLast": false,
+				"ignoreCase": true,
+				"noSortAlphabetically": false,
+				"shorthandFirst": false,
+				"shorthandLast": false
+			}
+		]
 	},
 	"settings": {
 		"react": {
