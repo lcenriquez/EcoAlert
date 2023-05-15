@@ -26,7 +26,8 @@
 				"shorthandFirst": false,
 				"shorthandLast": false
 			}
-		]
+		],
+		"sort-keys": "error"
 	},
 	"settings": {
 		"react": {
